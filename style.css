@@ -1,0 +1,32 @@
+a{color:rgb(189, 184, 184)}
+a:hover{color: hsl(0, 3%, 78%)}
+a:active{color: hsl(0, 100%, 99%);}
+i{font-size: x-large;}
+.brand{border-radius: 30%;}
+.blue{background-color: hsl(240, 87%, 21%); color: white;}
+.cardA{transition: transform 0.3s; overflow: hidden;}
+.cardA:hover{ transform: scale(1.1);}
+.p2{  font-size: xx-large;}
+.navbar-nav a:hover{border-bottom: 3px solid hsl(240, 87%, 21%); transition: all 0.5s;}
+.bluebtn{background-color: hsl(240, 87%, 21%); color: white; cursor:pointer; border-radius: 30px;}
+.bluebtn:hover{background-color: hsl(240, 93%, 28%); color: white;}
+.bluebtn:active{background-color: hsl(240, 83%, 59%); color: white;}
+.skibidi{color: white;}
+
+.face{color:hsl(220, 46%, 48%);}
+.face:hover{color:hsl(220, 51%, 53%);}
+.face:active{color:hsl(220, 29%, 52%);}
+
+.twi{color: hsl(203, 89%, 53%);}
+.twi:hover{color: hsl(203, 90%, 61%);}
+.twi:active{color: hsl(203, 90%, 68%);}
+
+.insta{ color: hsl(16, 94%, 48%);}
+.insta:hover{ color: hsl(16, 87%, 58%);}
+.insta:active{ color: hsl(16, 85%, 69%);}
+
+.youtube{color: hsl(0, 100%, 49%);}
+.youtube:hover{color: hsl(0, 89%, 59%);}
+.youtube:active{color: hsl(0, 94%, 69%);}
+.users{color: blue ;}
+.wajid{color:  hsl(240, 87%, 21%);}
