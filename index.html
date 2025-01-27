@@ -4,41 +4,240 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function navbar_toggler (){
+            document.querySelector('.navbar-nav')
+            .classList.toggle('active')
+        }
+    </script>
+    <nav class="navbar navbar-dark bg-secondary navbar-expand-lg">
+<button class="navbar-toggler" onclick="toggleNavbar()">&#9776;</button>
+        <div class="navbar-brand"> <img src="brand.jpg" alt="" width="50px" height="50px" class="brand">Course-Marchant</div>
+        <ul class="navbar-nav b">
+            <li class="nav-item"><a href="project.html" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="e-commerce.html" class="nav-link ">E-commerce</a></li>
+            <li class="nav-item"><a href="crypto.html" class="nav-link ">Crypto</a></li>
+            <li class="nav-item"><a href="social media.html" class="nav-link ">Social media</a></li>
+            
+            <li class="nav-item"><a href="about us.html" class="nav-link">about us</a></li>
+        </ul>
+    </nav>
+<h4 class="left  text-center " style="font-size:xx-large; font-weight: bolder;">Start your Professional Career In The Digital World.</h4>
+<p class="ml-3 text-center" style="font-weight: bold;">We Provide a secured future career in the digital world.</p>
 
+<p class="text-center" style="font-weight: bold;"><i class="fa-solid fa-user-plus users"></i> 10,000 successful entrepreneurs</p>
+   <div id="corousel_id" class="carousel slide" data-ride="carousel">
 
-<div class="col-sm-4">
-    <div class="card cardA mt-3 mb-3">
-        <img src="shopify.png" alt="" class="card-img-top" height="270px">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="Corousel1.jpg" alt="" class="d-block w-100 " height="500px">
+    </div>
+
+    <div class="carousel-item">
+        <img src="corousel2.jpg" alt="" class="d-block w-100 "height="500px">
+    </div>
+
+    <div class="carousel-item">
+        <img src="corousel3.jfif" alt="" class="d-block w-100 " height="500px">
+    </div>
+</div>
+   </div>
+   <button class="carousel-control-prev" type="button" data-target="#corousel_id" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">previous</span>
+   </button>
+   <button class="carousel-control-next" type="button" data-target="#corousel_id" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">next</span>
+   </button>
+
+<h1 class="mt-3" style="font-weight: bolder;">courses</h1>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4">
+<div class="card cardA mt-3 mb-4">
+    <img src="treading.jpg" alt="" class="card-img-top" height="270px">
+    <div class="card-body">
+        <h4 class="card-title">Crypto Trading</h4>
+        <p class="card-text">Our website offers a vast variety of comprehensive crypto courses, catering to beginners and advanced learners alike.</p>
+        <div class="btn bluebtn"><a href="crypto.html" class="skibidi">More...</a></div>
+    </div>
+</div>
+ </div>
+   
+ <div class="col-sm-4">
+    <div class="card cardA mt-3 mb-4">
+        <img src="e-commerce.jpg" alt="" class="card-img-top" height="270px">
         <div class="card-body">
-            <h4 class="card-title">Amazon FBA</h4>
-            <p class="card-text">Learn how to launch and scale a successful Amazon FBA business with proven strategies in this comprehensive, affordable course.</p>
-            <div class="btn bluebtn">buy now</div>
-            <p>3.99$</p>
+            <h4 class="card-title">E-Commerce  </h4>
+            <p class="card-text">Our online courses provide expert training in e-commerce, helping you build, grow, and optimize your business.</p>
+            <div class="btn bluebtn"><a href="e-commerce.html" class="skibidi">More...</a></div>
         </div>
     </div>
-    </div>
+     </div>
 
-    <div class="col-sm-4">
-        <div class="card cardA mt-3 mb-3">
-            <img src="fivrr.jfif" alt="" class="card-img-top" height="270px">
+     <div class="col-sm-4">
+        <div class="card cardA mt-3 mb-4">
+            <img src="social media marketing.jpg" alt="" class="card-img-top" height="270px">
             <div class="card-body">
-                <h4 class="card-title">Amazon FBA</h4>
-                <p class="card-text">Learn how to launch and scale a successful Amazon FBA business with proven strategies in this comprehensive, affordable course.</p>
-                <div class="btn bluebtn">buy now</div>
-                <p>4.99$</p>
+                <h4 class="card-title">Social Media Marketing</h4>
+                <p class="card-text">Our social media marketing courses teach strategies to boost brand visibility, engagement, and customer conversion online.</p>
+                <div class="btn bluebtn"><a href="social media.html" class="skibidi">More...</a></div>
             </div>
         </div>
+         </div>
+
+    </div>
+</div>
+<h1  style="font-weight: bold;">More About Us.</h1>
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-sm-6">
+    <p class="text-muted w-80 p2" > At Course-Marchant, we empower aspiring entrepreneurs through high-quality online courses designed for real-world success. With over 10,000 successful entrepreneurs trained, we provide practical knowledge, expert guidance, and a supportive community to help you turn your business dreams into reality. Join us and start your journey today!</p>
+</div>
+<div class="col-sm-6">
+    <img src="entre.jpg" alt="" width="500px" height="400px">
+</div>
+</div>
+</div>
+
+
+<div style="text-align: center;" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="dingdong.jfif" alt="" height="500px" class="mr-5 w-75">
         </div>
 
-        </div>
+    <div class="col-sm-6">
+<h1>Why Choose Us Over Other Course Websites?</h1>
+<ul style="font-size: larger;">
+
+    <li><span style="font-weight: bold; font-size:x-large;">Unbeatable Prices</span>:Learn for as Low as $5.99
+        Why pay more? At Course-Marchant, you can access high-quality courses for as little as $5.99. No subscriptions, no hidden fees just affordable learning that fits your budget.</li>
+    <li><span style="font-weight: bold; font-size:x-large;">Expert-Led, Quality Content</span>:Our courses are taught by industry professionals, ensuring you get practical, real-world knowledge at a fraction of the cost of other platforms. You can trust that you’re learning from the best, without the high price tag.    </li>
+    <li><span style="font-weight: bold; font-size:x-large;">Learn at Your Own Pace, Forever</span>:
+        With lifetime access to all courses, you can learn on your own schedule. Whether you want to take it slow or binge-learn, you control the pace, with no time limits or extra fees.</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<h1>More Resources</h1>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4">
+<div class="card cardA mt-3 mb-3" height="270px">
+    <img src="purple.jfif" alt="" height="270px">
+    <div class="card-body">
+        <h4 class="card-title">artical 1</h4>
+        <p class="card-text"><strong>Celebrating 5 Years and 10,000+ Successful Entrepreneurs</strong>As we mark our 5th anniversary, we celebrate empowering over 10,000 entrepreneurs to achieve success.</p>
+        <div class="btn bluebtn">Read More.</div>
     </div>
+</div>
+        </div>
+        <div class="col-sm-4" height="270px">
+            <div class="card cardA mt-3 mb-3">
+                <img src="yellow.jfif" alt="" height="270px">
+                <div class="card-body">
+                    <h4 class="card-title">Artical 2 </h4>
+                    <p class="card-text"><strong>8th Anniversary Celebration:</strong>
+                        In celebration of its 8th anniversary, Course-Merchant is offering massive discounts, with courses starting at just $2.99.</p>
+             <div class="btn bluebtn">Read  More.</div>
+             </div>
+            </div>
+            </div>
+            
+
+                    <div class="col-sm-4">
+                        <div class="card cardA mt-3 mb-3" height="270px">
+                            <img src="blue.jfif" alt="" height="270px">
+                            <div class="card-body">
+                                <h4 class="card-title"> About Us</h4>
+                                <p class="card-text">Course-Merchant offers affordable, high-quality online courses across various subjects. With discounted prices, including bundles starting at $2.99, </p>
+                                <div class="btn bluebtn">Read More.</div>
+                            </div>
+                        </div>
+                                </div>
+                        
+
+    </div>
+</div>
+   <footer class="mt-3 bg-secondary">
+
+    <div class="container-fluid text-light text-center ">
+<div class="row">       
+
+        <div class="col-sm-3">
+            <h3 class="wajid">Customer Services </h3>
+            <ul class="list-unstyled">
+                <li><a href="">Customers services</a></li>
+                <li><a href="">Contacts</a></li>
+                <li><a href="">Disclaimers</a></li>
+                <li><a href="">Orders</a></li>
+                <li><a href="">Delivery</a></li>
+                <li><a href="">FAQs</a></li>
+              </ul>
+        </div>
+
+        <div class="col-sm-3">
+
+            <h3 class="wajid">useful links</h3>
+        
+                <ul class="list-unstyled ml-3 ">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Register</a></li>
+                  </ul>
+        </div>
+
+        <div class="col-sm-3">
+            
+    <h3 class="wajid">contacts</h3>
+    <p><strong>Email:</strong> <a href="mailto:saboorahmed123@gmail.com">saboorahmed123@gmail.com</a></p>
+    <p>+0312345678</p>
+    <p>+9243135678</p>
     
+        </div>
+
+<div class="col-sm-3" style="font-size: x-large;">
+<h3 class="wajid">follow us</h3>
+<a href="https://www.Facebook.com/"><i class="fa-brands fa-facebook face"></i></a>
+<a href="https://www.twitter.com/"><i class="fa-brands fa-twitter twi"></i></a>
+<a href="https://www.instagram.com/"><i class="fa-brands fa-instagram insta"></i></a>
+<a href="https://www.youtube.com/"><i class="fa-brands fa-youtube youtube"></i></a>
+</div>
+    </div>
+</div>
+
+
+<div class="container-fluid ">
+    <div class="row">
+<div class="col-sm-4">
+   <a href=""> Privacy Policy</a>
+</div>
+<div class="col-sm-4">
+<a href="">Disclaimers</a>
+</div>
+<div class="col-sm-4">
+    <a href="">Terms & Conditions</a>
+</div>
+
+    </div>
+</div>
+<h5 class=" text-center blue">&copy;All rights are reserved 2024:Course-Merchant</h5>
+   </footer>
+
 </body>
 </html>
